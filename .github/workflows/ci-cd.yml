@@ -33,7 +33,7 @@ jobs:
           ENVIRONMENT: test
           SECRET_KEY: ci-secret-key-32-chars-minimum-ok
           REDIS_URL: redis://127.0.0.1:6379/0
-          DATABASE_URL: sqlite:///:memory:
+          DATABASE_URL: "sqlite:///:memory:"
         run: python -m pytest tests/ -q
 
   deploy:

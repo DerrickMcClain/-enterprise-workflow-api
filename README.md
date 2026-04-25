@@ -67,6 +67,10 @@ pip install -r requirements.txt
 pytest tests/
 ```
 
+## Push to GitHub (first time)
+
+Step-by-step: **[docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md)** (create empty repo, `git push`, then enable Actions + optional deploy).
+
 ## License
 
 Use freely for a portfolio; production use requires your own hardening, monitoring, and secrets management.
